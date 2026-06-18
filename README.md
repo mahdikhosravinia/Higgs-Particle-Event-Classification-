@@ -103,7 +103,7 @@ The most influential features include:
 
 These variables are closely related to the underlying physics processes and contribute strongly to signal-background separation.
 
-![Feature Importance](/Users/mahdikhosravi/Downloads/Higgs_Particle_Classification/Images/feature_importance.png)
+![Feature Importance](/Images/feature_importance.png)
 
 ---
 
@@ -111,7 +111,7 @@ These variables are closely related to the underlying physics processes and cont
 
 SHAP (SHapley Additive exPlanations) was used to interpret model predictions and understand feature contributions.
 
-![SHAP Summary](/Users/mahdikhosravi/Downloads/Higgs_Particle_Classification/Images/shap_summary.png)
+![SHAP Summary](/Images/shap_summary.png)
 
 ---
 
@@ -134,11 +134,9 @@ SHAP (SHapley Additive exPlanations) was used to interpret model predictions and
 ```text
 particle-physics-classification/
 │
-├── notebooks/
-│   └── EDA_Modeling.ipynb
+├── Particle_Physics_Classification.ipynb
 │
-├── models/
-│   └── higgs_classifier.pkl
+├── Higgs_particle_model.pkl
 │
 ├── images/
 │   ├── class_distribution.png
