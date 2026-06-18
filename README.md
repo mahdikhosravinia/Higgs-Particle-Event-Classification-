@@ -80,12 +80,12 @@ Training strategy:
 
 | Metric           | Score  |
 | ---------------- | ------ |
-| Weighted ROC-AUC | 0.9288 |
+| Weighted ROC-AUC | 0.9281 |
 
 Cross-validation results:
 
-* Mean ROC-AUC: 0.9288
-* Standard Deviation: 0.0009
+* Mean ROC-AUC: 0.9281
+* Standard Deviation: 0.001
 
 The low variance across folds indicates stable model performance.
 
@@ -103,7 +103,7 @@ The most influential features include:
 
 These variables are closely related to the underlying physics processes and contribute strongly to signal-background separation.
 
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](/Users/mahdikhosravi/Downloads/Higgs_Particle_Classification/Images/feature_importance.png)
 
 ---
 
@@ -111,7 +111,7 @@ These variables are closely related to the underlying physics processes and cont
 
 SHAP (SHapley Additive exPlanations) was used to interpret model predictions and understand feature contributions.
 
-![SHAP Summary](images/shap_summary.png)
+![SHAP Summary](/Users/mahdikhosravi/Downloads/Higgs_Particle_Classification/Images/shap_summary.png)
 
 ---
 
